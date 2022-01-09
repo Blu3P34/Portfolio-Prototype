@@ -18,6 +18,7 @@ body{
 /*Navbar animation*/
 .navbar-default .navbar-brand {
     color: rgb(0, 0, 0);
+    font-weight: 900;
 }
 
 .navbar-default .navbar-brand:hover{
