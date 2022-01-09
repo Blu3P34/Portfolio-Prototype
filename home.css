@@ -15,7 +15,7 @@ body{
 .navbar-default .navbar-nav li a{
     color: black;
 }
-
+/*Navbar animation*/
 .navbar-default .navbar-brand {
     color: rgb(0, 0, 0);
 }
@@ -34,7 +34,7 @@ body{
     transform: scale(1.1);
     transition-duration: 250ms;
 }
-/*Fancy background 1*/
+/*Splash page*/
 #home{
     background: url(../Portfolio-Prototype/Digital\ assets/background.jpg) no-repeat center center fixed ;
     display: table;
@@ -58,7 +58,7 @@ body{
  .landing-text p{
      font-size: 150%;
  }
-
+/*Button animation*/
  .btn-default{
      font-size: 150%;
      color: white;
@@ -71,6 +71,7 @@ body{
      color: white;
  }
 
+ /*General padding layout*/
  .padding{
      padding: 80px 0;
  }
@@ -78,7 +79,10 @@ body{
  .padding .row{
      padding-top: 80px;
  }
-
+ /*Remodified padding for "get in touch" panel*/
+#getintouch{
+    padding-top: 0;
+}
  .padding img{
      width: 100%;
  }
@@ -87,15 +91,17 @@ body{
      text-align: center;
  }
 
+ /*Second splash page*/
  #fixed{
      background: url(../Portfolio-Prototype/Digital\ assets/background1.jpg) no-repeat center center fixed;
      display: table;
-     height: 60vh;
+     height: 70vh;
      position: relative;
      width: 100vw;
      background-size: cover;
  }
 
+ /*Footer*/
  footer{
      width: 100vw;
      background-color: black;
@@ -103,6 +109,7 @@ body{
      padding: 4% 4% 8% 4%;
  }
 
+/*Footer animation*/
  .fa{
      padding-right: 5px;
      padding-left: 5px;
