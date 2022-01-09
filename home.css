@@ -1,0 +1,47 @@
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    padding: 0 0 0 0;
+    font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav li a{
+    color: black;
+}
+
+.navbar-default .navbar-brand {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-default .navbar-nav li a:hover{
+    color: black;
+}
+
+#home{
+    background: url(../Portfolio-Prototype/Digital\ assets/background.jpg) no-repeat center center fixed ;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+    background-size: cover;
+}
+
+.landing-text{
+    color: beige;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+ .landing-text h1{
+     font-size: 300%;
+     font-weight: 700;
+ }
+
+ .landing-text p{
+     font-size: 150%;
+ }
